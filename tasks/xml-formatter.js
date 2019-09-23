@@ -37,8 +37,11 @@ module.exports = function (grunt) {
     // Format the files using XML formatter.
     this.files.forEach((file) => {
 
+      // Get the file contents.
+      const contents = grunt.file.read(file.src).trim();
+
       // Get the file's source xml and format it.
-      const xml = format(grunt.file.read(file.src), options);
+      const xml = format(contents, options);
 
       // Save the formatted xml to the destination.
       grunt.file.write(file.dest, xml);
