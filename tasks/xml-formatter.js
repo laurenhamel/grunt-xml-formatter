@@ -45,6 +45,9 @@ module.exports = function (grunt) {
 
     });
 
+    // Log the result.
+    grunt.log.ok(`${this.files.length} files formatted.`);
+
   });
 
 }
