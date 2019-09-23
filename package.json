@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "A Grunt wrapper for the xml-formatter",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "grunt",
     "xml",
@@ -20,5 +18,8 @@
   },
   "dependencies": {
     "xml-formatter": "^1.1.0"
-  }
+  },
+  "respository": "github:laurenhamel/grunt-xml-formatter",
+  "homepage": "https://github.com/laurenhamel/grunt-xml-formatter",
+  "bugs": "https//github.com/laurenhamel/grunt-xml-formatter/issues"
 }
